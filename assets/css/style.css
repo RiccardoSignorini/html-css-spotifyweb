@@ -18,37 +18,91 @@
 /* BARRA LATERALE */
 #lateral-bar{
     height: 100%;
-    width: 60px;
+    width: 70px;
     background-color: black;
+    text-align: center;
 }
 
+/* PARTE ALTA LATERALE */
 #lateral-top{
     height: calc(100% - 80px);
 }
 
 #lateral-top img{
-    width: 25px;
-    margin-left: 0.7rem;
+    width: 20px;
     margin-top: 0.4rem;
+}
+
+#lateral-top h2{
+    color: white;
+    font-size: 25px;
+    display: none;
 }
 
 #lateral-top a{
     text-decoration: none;
     color: lightgray;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+    display: none;
 }
 
 #lateral-top h4{
     color: white;
-    margin-top: 1.25rem;
+    margin-top: 0.8rem;
 }
 
+#lateral-top i{
+    background-color: rgb(163, 163, 163);
+    padding: 6px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.display-none{
+    margin-left: 0.8rem;
+    display: none;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.display-block a{
+    display: block;
+}
+
+/* PARTE BASSA LATERALE */
 #lateral-bottom{
     height: 80px;
 }
 
+hr{
+    margin: 5px 0;
+    display: none;
+}
+
+.small{
+    width: 15px;
+    margin-bottom: 5px;
+}
+
+.circle{
+    width: 20px;
+    border-radius: 100%;
+    background-color: rgb(163, 163, 163);
+    margin-top: 5px;
+}
+
+#lateral-bottom span{
+    color: white;
+    font-weight: bold;
+}
+
+
 /* PARTE PRINCIPALE */
 #principla{
-    width: calc(100% - 60px);
+    width: calc(100% - 45px);
     height: 100%;
 }
 

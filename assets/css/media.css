@@ -4,6 +4,25 @@
     /* BARRA LATERALE */
     #lateral-bar{
         width: 200px;
+        text-align: left;
+    }
+
+    #lateral-top a,
+    #lateral-top h2,
+    #lateral-bottom a,
+    #lateral-bottom span{
+        display: inline-block;
+    }
+
+    .display-none,
+    hr{
+        display: block;
+    }
+
+    #lateral-top img,
+    .small,
+    .circle{
+        margin-left: 0.6rem;
     }
 
     /* PARTE PRINCIPALE */
