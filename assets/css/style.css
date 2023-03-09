@@ -13,7 +13,6 @@
 #main{
     height: calc(100% - 80px);
     display: flex;
-    background-color: rgb(20, 25, 34);
 }
 
 /* BARRA LATERALE */
@@ -21,6 +20,30 @@
     height: 100%;
     width: 60px;
     background-color: black;
+}
+
+#lateral-top{
+    height: calc(100% - 80px);
+}
+
+#lateral-top img{
+    width: 25px;
+    margin-left: 0.7rem;
+    margin-top: 0.4rem;
+}
+
+#lateral-top a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+#lateral-top h4{
+    color: white;
+    margin-top: 1.25rem;
+}
+
+#lateral-bottom{
+    height: 80px;
 }
 
 /* PARTE PRINCIPALE */
@@ -37,6 +60,23 @@
     top: 0;
     background-color: rgb(10, 13, 20);
     opacity: 0.6;
+}
+
+/* CORPO PAGINA */
+#selection{
+    width: calc(100% - 60px);
+    margin-top: 80px;
+    color: white;
+}
+
+.background{
+    background-color: rgb(20, 25, 34);
+}
+
+#selection p{
+    font-size: 0.7rem;
+    padding: 1rem 0.5rem;
+    display: inline-block;
 }
 
 /* FOOTER */
