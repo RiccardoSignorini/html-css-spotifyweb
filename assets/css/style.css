@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#struttura{
+    height: 100vh;
+    width: 100%;
+}
+
+/* MAIN */
+#main{
+    height: calc(100% - 80px);
+    display: flex;
+    background-color: rgb(20, 25, 34);
+}
+
+/* BARRA LATERALE */
+#lateral-bar{
+    height: 100%;
+    width: 60px;
+    background-color: black;
+}
+
+/* PARTE PRINCIPALE */
+#principla{
+    width: calc(100% - 60px);
+    height: 100%;
+}
+
+/* BARRA SUPERIORE */
+#high-bar{
+    width: calc(100% - 60px);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    background-color: rgb(10, 13, 20);
+    opacity: 0.6;
+}
+
+/* FOOTER */
+#footer{
+    height: 80px;
+    background-color: rgb(40, 40, 40);
+}

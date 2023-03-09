@@ -1,0 +1,23 @@
+/* VERSIONE TABLET S */
+@media only screen and (min-width: 480px){
+
+    /* BARRA LATERALE */
+    #lateral-bar{
+        width: 200px;
+    }
+
+    /* PARTE PRINCIPALE */
+    #principla{
+        width: calc(100% - 200px);
+    }
+}
+
+/* VERSIONE TABLET L */
+@media only screen and (min-width: 740px){
+
+}
+
+/* VERSIONE COMPUTER */
+@media only screen and (min-width: 1000px){
+
+}
