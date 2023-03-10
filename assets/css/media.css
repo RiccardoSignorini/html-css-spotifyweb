@@ -39,6 +39,11 @@
     #principla{
         width: calc(100% - 200px);
     }
+
+    /* BARRA SUPERIORE */
+    .button{
+        margin-right: 3rem;
+    }
 }
 
 /* VERSIONE TABLET L */
