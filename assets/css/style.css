@@ -37,11 +37,12 @@
     color: white;
     font-size: 25px;
     display: none;
+    margin-left: 0;
 }
 
 #lateral-top a{
     text-decoration: none;
-    color: lightgray;
+    color: rgb(163, 163, 163);
     margin-bottom: 5px;
     font-size: 0.8rem;
     display: none;
@@ -99,16 +100,22 @@ hr{
     font-weight: bold;
 }
 
+#lateral-bottom span,
+#lateral-bottom a{
+    display: none;
+}
+
 
 /* PARTE PRINCIPALE */
 #principla{
-    width: calc(100% - 45px);
+    width: calc(100% - 70px);
     height: 100%;
+    overflow: hidden;
 }
 
 /* BARRA SUPERIORE */
 #high-bar{
-    width: calc(100% - 60px);
+    width: calc(100% - 70px);
     height: 80px;
     position: fixed;
     top: 0;
@@ -117,8 +124,9 @@ hr{
 }
 
 /* CORPO PAGINA */
+/* MENU' DI SCELTA */
 #selection{
-    width: calc(100% - 60px);
+    width: calc(100% - 70px);
     margin-top: 80px;
     color: white;
 }
@@ -127,14 +135,61 @@ hr{
     background-color: rgb(20, 25, 34);
 }
 
-#selection p{
+#selection ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#selection ul li{
+    list-style-type: none;
+    margin: 0 1.25rem;
+}
+
+#selection a{
     font-size: 0.7rem;
     padding: 1rem 0.5rem;
-    display: inline-block;
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+}
+
+/* SCELTA ALBUM */
+#recently-played{
+    color: white;
+    padding: 1.25rem;
+}
+
+#recently-played h2{
+    margin-bottom: 1.5rem;
+}
+
+#playlist .album img{
+    width: 100%;
+}
+
+#playlist{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#playlist .album{
+    flex-basis: calc(100% / 2 - 2%);
+    text-align: center;
+
+}
+
+.album h6{
+    color: rgb(163, 163, 163);
 }
 
 /* FOOTER */
 #footer{
     height: 80px;
     background-color: rgb(40, 40, 40);
+    z-index: 2;
+    position: sticky;
+    bottom: 0;
 }

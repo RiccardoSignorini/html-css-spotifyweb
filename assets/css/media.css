@@ -7,7 +7,7 @@
         text-align: left;
     }
 
-    #lateral-top a,
+    #lateral-top .a-inline,
     #lateral-top h2,
     #lateral-bottom a,
     #lateral-bottom span{
@@ -15,6 +15,7 @@
     }
 
     .display-none,
+    #lateral-top .display-block a,
     hr{
         display: block;
     }
@@ -23,6 +24,15 @@
     .small,
     .circle{
         margin-left: 0.6rem;
+    }
+
+    #big-img img{
+        width: 30px;
+    }
+
+    #big-img{
+        font-size: 1.5rem;
+        margin-bottom: 0.4rem;
     }
 
     /* PARTE PRINCIPALE */
